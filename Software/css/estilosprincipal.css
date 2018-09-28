@@ -1,0 +1,96 @@
+html{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: #373B44; 
+	background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+	background: linear-gradient(to right, #4286f4, #373B44); 
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	color:white;
+}
+header h1{
+	margin-left: 10%;
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+header a{
+	width: 50px;
+	margin-left: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+header a img{
+	width: 100%;
+}
+section{
+	width: 80%;
+	min-height: 500px;
+	border: 1px solid #DDD;
+	padding: 2%;
+	margin:0 auto;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+.producto{
+	width: 23%;
+	height: 220px;
+	background-color: #fafafa;
+	border:1px solid gray;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+.producto img{
+	width: 60%;
+	height: 60%;
+	margin:0 auto;
+}
+span{
+	color: rgb(12, 183, 242);
+	font-family: centaur;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.menu{
+	position: absolute;
+	padding-top: 10px;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
